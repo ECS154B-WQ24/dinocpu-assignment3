@@ -198,6 +198,8 @@ class PipelinedCPU(implicit val conf: CPUConfig) extends BaseCPU {
 
   // Connect the JumpDetectionUnit data wires
 
+  // Connect the JumpPcGenerator control and data wires
+
   // Sending signals from this stage to MEM stage
   //  - Fill in the EX_MEM register
   //  - Set the memory control singals
