@@ -36,5 +36,8 @@ class ForwardingUnit extends Module {
     val forwardB = Output(UInt(2.W))
   })
 
+  io.forwardA := 0.U
+  io.forwardB := 0.U
+
   // Your code goes here
 }
